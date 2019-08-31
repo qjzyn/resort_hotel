@@ -1,0 +1,155 @@
+/*内容*/
+.zyn-restaurant{padding-top: 70px;}
+.zyn-title{
+	width: 1200px;
+	margin: 0 auto;
+	}
+.zyn-title>h2{
+	color: #00AD8A;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 60px;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.zyn-4{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.container>div>h3{
+	width:255px ;
+	font-size: 2em;
+    margin-bottom: 0.8em;
+}
+.margin{
+	margin-left: -20px;
+	padding-bottom: 5em;
+}
+.margin>img{
+	box-shadow: 0 0 8px #999;
+    padding: 0.5em;
+    margin-left: -10px; 
+}
+.margin>p{
+	font-size: 1em;
+    line-height: 1.8em;
+    padding-top: 1.5em;
+    margin-left: -10px; 
+    color: #777777;
+}
+.zyn-bottom{
+	margin-top: 50px;
+	background:#000000;					/*	测试*/
+	margin-left: -15px;					
+}
+.zyn-bottom>div>img{
+	box-shadow: 0 0 8px #999;
+    padding: 0.5em;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.zyn-bottom>div>h4{
+	color: #333333;
+	padding-top: 0.8em;
+}
+.zyn-bottom>div>p{
+	font-size: 1em;
+    line-height: 1.8em;
+    padding-top: 1.5em;
+    color: #777777;
+}
+.zyn-reser-grid1>h5{
+	font-size: 1em;
+    margin-bottom: 0.8em;
+}
+.zyn-book_date1{
+	padding: 6px 8px;
+    border: 1px solid #00AD8A;
+    margin-bottom: 0.8em;
+}
+.zyn-book_date1>input {
+	border: none;
+    font-size: 13px;
+    outline: none;
+    color: #000;
+    width: 92%;
+    line-height: inherit;
+    background: transparent;			
+}
+.zyn-best-hot1>input{
+	border: 1px solid #00AD8A;
+    outline: none;
+    padding: 8px 8px;
+    width: 100%;
+    color: #000;
+    font-size: 0.9em;
+    background: transparent;
+}
+.zyn-sel1{
+	width: 100%;
+    padding: .4em 1em;
+    font-size: 1em;
+    outline: none;
+    text-transform: capitalize;
+    border: 1px solid #00AD8A;
+    color: #000;
+    background: transparent;
+}
+.zyn-best-hot>input{
+	width: 100%;
+    padding: 0.5em;
+    margin-top: 1.5em;
+    background: #00AD8A;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.zyn-lastest-top{
+	margin-top: 3em;
+}
+.zyn-lastest-top>img{
+	vertical-align: middle;
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+.zyn-lastest-top>h4{
+	font-size: 1.8em;
+    padding: 0.8em 0 0;
+}
+.zyn-lastest-top>p{
+	font-size: 1em;
+    line-height: 1.8em;
+    padding-top: 1.5em;
+    color: #777;
+}
+/*新增*/
+.zyn-best-hot>input:hover{
+	background: #fff;
+	color:#00AD8A ;
+	transition:all ease 1.0s;
+}
+.zyn-lastest-top:hover{
+	background: rgba(255 255 255 0.5);
+	transform: scale(1.1);
+	transition:all	ease	0.5s
+}
+.zyn-lastest-top>h4:hover{
+	color:#00AD8A ;
+	cursor: pointer;
+}
+.margin>img:hover{
+	opacity: 0.8;
+	background: rgba(255,255,255,0.5);
+}
+.zyn-bottom>div>img:hover{
+	transform: scale(1.1);
+	transition:all	ease	;
+}
+.zyn-bottom>div>h4:hover{
+	color:#00AD8A ;
+	cursor: pointer;
+}

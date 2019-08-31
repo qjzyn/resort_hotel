@@ -1,0 +1,233 @@
+.zyn-box{
+	width: 100%;
+	height: 85%;
+	background: url("../images/banner1.jpg");
+	background-repeat: no-repeat 0px 0px; 
+	background-size: cover;
+	min-height: 120px !important;
+	/*background-size: 100% 80%;
+	position: fixed;*/
+}
+.zyn-Navigation-bar{
+	width: 100%;
+	height: 60px;
+	background: #00AD8A;
+	background-repeat: no-repeat; 
+	min-height: 22px !important;
+	position: fixed;
+	transition: all ease 0.3s;
+	z-index: 20;
+}
+.zyn-header-menu{
+	width: 1200px;
+    color: #333;
+    height: 60px ;
+ /*   background: red;				*/								/*测试*/
+    margin: 0 auto;
+}
+.zyn-header-menu>a{
+	font-size: 40px;
+	color: white;
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	text-decoration: none;
+}
+.zyn-header-menu>a:hover{
+	color: white;
+	text-decoration: none;
+}
+.zyn-Navigation-bar-right{
+	display: inline-block;
+	/*background:green;	*/											/*测试*/
+	width: 600px;
+	height: 57px ;
+	line-height: 57px;
+	float: right;
+	
+}
+.zyn-Navigation-bar-right>span{
+	margin-left: 10px;
+	/*background: red;		*/											/*测试*/
+	height: 60px ;
+}
+.zyn-Navigation-bar-right>span>a{
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+}
+.zyn-Navigation-bar-right>span>a:hover{
+	color: black;
+	 transition:all ease 0.7s;
+}
+/*head结束*/
+/*foot开始*/
+#zyn-Hotel{
+	width: 100%;
+    height: 350px;
+ 	background:#444444;
+  	margin: auto;
+    position: relative;
+}
+ #zyn-Hotel .zyn-Hotel01{
+   	width: 1200px;
+    height: 350px;
+ 	margin:  0 auto;
+}
+.zyn-Hotel01>ul{
+    width: 200px;
+    height: 300px;
+   margin: 92px 48px;
+	display: inline-block;
+
+ }
+ .zyn-Hotel01>ul>li{
+	display: block;
+	color: #999;
+	list-style: none;
+	font-size: 1em;
+	line-height: 2.5em;
+ }
+.zyn-Hotel01>ul>li>h4{
+   color: #EEEEEE;
+   font-size: 1.8em;
+}
+#zyn-Copyright{
+    width: 100%;
+    height: 139px;
+    background: #000000;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+ .zyn-Copyright01{
+    width: 1200px;
+    height: 69px;
+    margin: auto;
+    /*background: #008000;*/
+ }
+ .zyn-Copyright01>p{
+    padding-top: 20px;
+    color: #fff;
+    /*background: #00BFFF;*/
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 2em;
+ }
+ .zyn-Copyright01-icons{
+ 	margin-top: 1rem ;
+}
+ .zyn-Copyright01-icons a i{
+	width: 32px;
+    height: 32px;
+    background:#777  url(../images/img-sprite.png) no-repeat 0px 0px;
+    display: inline-block;
+	margin:0 0.2em;
+	transition: 0.5s all;
+}
+ .zyn-Copyright01-icons a i.zyn-icon:hover{
+  	background: #00AD8A url(../images/img-sprite.png) no-repeat 0px 0px;
+    transform: rotateY(360deg);
+  }
+ .zyn-Copyright01-icons a i.zyn-icon{
+ 	background-position: 0px 0px;
+ }
+ .zyn-Copyright01-icons a i.zyn-icon1{
+ 	background-position: -32px 0px;
+ }
+ .zyn-Copyright01-icons a i.zyn-icon1:hover {
+  background: #00AD8A url(../images/img-sprite.png) no-repeat -32px 0px;
+      transform: rotateY(360deg);
+}
+ .zyn-Copyright01-icons a i.zyn-icon2 {
+    background-position: -64px 0px;
+}
+ .zyn-Copyright01-icons a i.zyn-icon2:hover {
+  background: #00AD8A url(../images/img-sprite.png) no-repeat -64px 0px;
+      transform: rotateY(360deg);
+}
+ .zyn-Copyright01-icons a i.zyn-icon3 {
+    background-position: -96px 0px;
+}
+ .zyn-Copyright01-icons a i.zyn-icon3:hover {
+  background: #00AD8A url(../images/img-sprite.png) no-repeat -96px 0px;
+      transform: rotateY(360deg);
+}
+/*html头部*/
+
+/*<div class="zyn-box"></div>
+	<div class="zyn-Navigation-bar">
+		<div class="zyn-container">
+			<div class="zyn-header-menu">
+				<a href="">Best Hotel</a>
+				<div class="zyn-Navigation-bar-right">
+					<span ><a href="">Home</a></span>
+					<span><a href="">About</a></span>
+					<span><a href="">Restaurant</a></span>
+					<span><a href="">Gallery</a></span>
+					<span><a href="">Rooms</a></span>
+					<span><a href="">Codes</a></span>
+					<span><a href="">Contact</a></span>
+				</div>
+			</div>
+		</div>
+	</div>*/
+	
+/*html尾部*/
+
+/*	    <div id="zyn-Hotel">
+			<div class="zyn-Hotel01">
+				<ul>
+					<li><h4>Get In Touch</h4></li>
+					<li>
+						<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
+						 Office : 0041-456-3692
+					</li>
+					<li>
+						<i class="glyphicon glyphicon-phone" aria-hidden="true"></i>
+						 Mobile : 0200-123-4567
+					</li>
+					<li>
+						<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+						 info@example.com
+					</li>
+					<li><i class="glyphicon glyphicon-print" aria-hidden="true"></i>
+						info@example.com
+					</li>
+				</ul>
+				<ul>
+					<li><h4>Hotel top links</h4></li>
+					<li> Our Story</li>
+					<li>Sleep Program</li>
+					<li>Executive Travel Program</li>
+					<li>Enriched Wellness</li>
+				</ul>
+				<ul>
+					<li><h4>Our Rooms</h4></li>
+					<li> Superior Room</li>
+					<li> Deluxe Room</li>
+					<li> Business Room</li>
+					<li>Executive Corner Room</li>
+				</ul>
+				<ul>
+					<li><h4>Our Services</h4></li>
+					<li> Room services</li>
+					<li> Free internet Wifi</li>
+					<li>Television (50 channels)</li>
+					<li>Pets allowed</li>
+				</ul>
+			</div>
+		</div>
+		<div id="zyn-Copyright">
+			<div class="zyn-Copyright01">
+				<p>Copyright © 2016.Company name All rights reserved.</p>
+				<div class="zyn-Copyright01-icons">
+					<a href="#"><i class="zyn-icon"></i></a>
+					<a href="#"><i class="zyn-icon1"></i></a>
+					<a href="#"><i class="zyn-icon2"></i></a>
+					<a href="#"><i class="zyn-icon3"></i></a>
+				</div>
+			</div>
+		</div>*/

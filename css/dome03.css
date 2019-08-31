@@ -1,0 +1,25 @@
+
+/*内容*/
+.zyn-content{}
+.zyn-restaurant{padding-top: 70px;}
+.zyn-title{
+	width: 1200px;
+	margin: 0 auto;
+	}
+.zyn-title>h2{
+	color: #00AD8A;
+	text-align: center;
+	font-size: 50px;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	background: #204D74;
+}
+.col-col-8{
+	background: #00BFFF;
+}
+.col-col-4{
+	background: #255625;
+}
+/*foot开始*/

@@ -1,0 +1,9 @@
+#video{
+	height: 100%;
+	background: black;
+	 overflow: hidden;
+    position: relative;
+}
+#video>video{
+	width:100%;
+}

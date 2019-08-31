@@ -1,0 +1,146 @@
+/*子网页公共样式*/
+#zrd-contentOne{
+	width: 100%;
+	margin-top: 130px;
+}
+.zrd-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.zrd-title{
+	text-align: center;
+	color: #00AD8A;
+}
+.zrd-title>h2{
+	font-size: 40px;
+}
+/*内容01样式设置*/
+.text-lg>img{
+}
+.text-lg:hover>img{
+    filter: grayscale(100%);
+    box-shadow: 10px 10px 10px #999;
+}
+.navTitle{
+	padding: 20px 0 80px 0;
+}
+.text h3{
+	color: #333333;
+}
+.text>p{
+	font-size: 14px;
+	color: #777777;
+	line-height: 26px;
+}
+.text p:nth-child(2){
+	padding: 5px 0;
+}
+.text p:nth-child(3){
+	padding: 20px 0;
+}
+.about-left img,.about-right img{
+	box-shadow: 0px 0px 9px #999;
+	padding: 7px;
+}
+.image .row{
+	padding-top: 20px;
+}
+.image .row>a img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/*内容02样式设置*/
+#zrd-contentTwo{
+	background: url(../img/banner.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+}
+#zrd-title{
+	padding-top: 30px;
+	color: #ffffff;
+}
+.zrd-mark{
+	text-align: center;
+	padding: 10px 0 40px 0;
+	color: #fff;
+}
+.zrd-mark p{
+	font-size: 18px;
+	color: #A4A6AB;
+}
+/*内容03样式设置*/
+.text-center{
+	position: relative;
+}
+.text-center>img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	height: 100%;
+	vertical-align: middle;
+	transform: scale(1);
+	transition: all ease 1s;
+}
+.text-center:hover>img{
+	position: absolute;
+	left: 20px;
+	transition: all ease 1s;
+	transform: scale(0);
+}
+#zrd-title-three{
+	padding-top: 40px;
+}
+#zrd-contentThree{
+	height: 440px;
+}
+.zrd-three{
+	padding-top: 20px;
+}
+.border>h3{
+	color: #333;
+}
+.border>p{
+	padding: 0 45px 20px 45px;
+	font-size: 15px;
+	line-height: 20px;
+	color: #A4A6AB;
+}
+.zyn-Copyright01-icons{
+	padding: 0 0 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

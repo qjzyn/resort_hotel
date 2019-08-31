@@ -1,0 +1,196 @@
+ .wai{
+  	  width: 100%;
+       height: 520px;
+       position: relative;
+       background: rgba(0,0,0,0.5);
+  }
+.wai>.left{
+    width: 380px;
+    height: 300px;
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    z-index: 18;
+    color: white;
+   }
+  .wai>.left>h1{
+	text-align: left;
+  	margin-top: 30px;
+  }
+  .wai>.left>p{
+  	margin-top: 55px;
+  }
+  .wai>.left>a{
+  	display: inline-block;
+  	height: 40px;
+    width: 300px;
+    border: 1px solid  white;
+	text-align: center;
+   	line-height: 40px;
+	border-radius: 44px ;
+   	text-decoration:none ;
+   	color: white;
+ }
+       
+.main-right{
+    width: 309px;
+    height: 334px;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    bottom: 10%;
+    right: 120px;
+    border-radius: 10px;
+    padding-top: 45px;
+    z-index: 15;
+}
+.main-right>h1{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.user,.user-pwd{
+    display: block;
+    background: rgba(226,226,226,0.8);
+    border: none;
+    outline: none;
+    width: 247px;
+    height: 40px;
+    font-size: 14px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.main-right p{
+    width: 247px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main-right p>span{
+    font-size: 14px;
+    float: left;
+}
+.main-right p>span>input{
+    vertical-align: middle;
+}
+.main-right p>a{
+    float: right;
+    font-size: 14px;
+    color: #000;
+}
+.main-right button{
+    width: 247px;
+    height: 44px;
+    border-radius: 44px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin: 30px auto 0;
+    background: #79A3CC;
+    display: block;
+}
+.main-right button>a{
+	color: #fff;
+} 
+/*轮播开始*/
+  #slider{
+    width: 100%;
+    height: 520px;
+    margin: 0 auto;
+    position: relative;
+   overflow: hidden;
+    z-index: -1;
+ }
+ #slider img{display: block;width: 100%;}
+ .sliderImg{
+  position: relative;
+ }
+ .sliderImg>li{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+ 	 height: 520px;
+    overflow: hidden;
+    opacity: 0;
+    transition: all ease 0.7s;
+ }
+ .sliderImg>.show{opacity: 1;z-index: 10;}
+ #slider:hover #prev{left: 0;}
+ #slider:hover #next{right: 0;}
+/*轮播结束*/
+
+/*新增*/
+.wai>.left>a:hover{
+	color:#00AD8A ;
+	background:white;
+	cursor: pointer;
+}
+.main-right button:hover{
+	color:#79A3CC ;
+	cursor: pointer;
+	text-decoration: none;
+	background: #fff;
+}
+.main-right button>a:hover{
+	color: #79A3CC;
+	cursor: pointer;
+	text-decoration: none;
+}
+/*注测页面*/
+.zyn-right-registration{    
+	width: 600px;
+    height: 420px;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    bottom: 4%;
+    right: 260px;
+    border-radius: 10px;
+    padding-top: 45px;
+    z-index: 15;
+    padding: 0 30px;
+}
+.zyn-right-registration>h1{
+	font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.zyn-right-registration>input{
+	vertical-align: middle;
+}
+.name,.Age,.Gender,.From,.E-mail,.phone{
+    background: rgba(226,226,226,0.8);
+    border: none;
+    outline: none;
+    width: 247px;
+    height: 40px;
+    font-size: 14px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.name,.Age;.Gender,.From;.E-mail,.phone{
+	display: block;
+	
+}
+.zyn-right-registration>button{
+	width: 247px;
+    height: 44px;
+    border-radius: 44px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin: 30px auto 0;
+    background: #79A3CC;
+    color: #fff;
+    display: block;
+}
+.zyn-right-registration>button>a{
+	text-decoration: none;
+	color: #fff;	
+}
+.zyn-right-registration>button:hover{
+	background: #fff;
+}
+

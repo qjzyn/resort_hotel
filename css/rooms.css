@@ -1,0 +1,220 @@
+.welcomed{
+	width:100%;
+}
+.noun{
+	width:1170px;
+	padding: 110px 0;
+	margin: auto;
+	text-align: center;
+}
+h2.tittle{
+	font-size: 3em;
+	text-align: center;
+	color: #00AD8A;
+}
+.weltext{
+	width: 50%;
+    margin: 1em auto;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+.picture{
+	height: 340px;
+	margin-top: 3em;
+}
+.Network{
+	width: 255px;
+    height: 300px;
+    margin-left: 35px;
+    margin-top:30px ;
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+.Network>img{
+    box-shadow:0px 0px 8px #999;
+    padding:3px;
+}
+.Network>img:hover{
+	filter: grayscale(100%);
+}
+.Network>h4{
+	font-size: 1.8em;
+	padding: 0.8em 0 0.3em;
+	color: #333;
+}
+.Network>P{
+	font-size: 1em;
+	line-height: 2em;
+	text-align: center;
+}
+.reservation{
+	width: 100%;
+	height: 400px;
+	padding: 5em 0;
+	background: rgba(0,170,138,0.06);
+	/*border:1px solid blueviolet;*/
+}
+.containers{
+	width: 1170px;
+	margin: auto;
+	text-align: center;
+}
+.tittle{
+	font-size: 3em;
+	text-align: center;
+	color: #00AD8A;
+}
+.reservation-grids{
+	margin-top: 2em;
+	box-sizing:border-box;
+}
+.col-md-4 .reser-grid{
+	width: 33.33%;
+	float: left;
+}
+.reser-grid>h5{
+	margin-bottom: 0.5em;
+	text-align: left;
+}
+.book_date{
+	padding: 8px 8px;
+	border: 1px solid #00AD8A;
+	margin-bottom:25px ;
+}
+
+.glyphicon.glyphicon-calendar{
+   color: #000;
+}
+.glyphicon{
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family:"Glyphicons Halflings" ;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1px;
+	-webkit-font-smoothing:antialiased;
+}
+
+.book_date input[type='date']{
+	border:none;
+	font-size: 13px;
+	outline: none;
+	color: #000;
+	width: 90%;
+	line-height: inherit;
+	background: transparent;
+}
+.best-hot input[type='text']{
+	border: 1px solid #00AD8A;
+	outline: none;
+	padding: 8px 8px;
+	width: 100%;
+	color: #000;
+	font-size:0.9em;
+	background: transparent;
+}
+.sel{
+	width: 99%;
+	padding: 8px 8px;
+	border: 1px solid #00AD8A;
+	background: transparent;
+}
+.best-hot input[type='submit']{
+	width: 100%;
+	padding: 0.5em;
+	margin-top: 2.3em;
+	background: #00AD8A;
+	border: none;
+	color: #fff;
+}
+/*房价与房价 */
+.rooms-rates{
+	padding: 4em 0;
+}
+.container{
+	width: 970px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.rates-grids{
+	margin-top:4em;
+	position: relative;
+}
+.rates-grid1{
+	float: right;
+}
+.rates-grid1>img{
+	padding: 0.5em;
+	box-shadow: 0px 0px 4px 1px #00AD8A;
+	border-radius:2px;;
+}
+.gray:hover {
+    filter: grayscale(100%);
+}
+.rates-grid>img {
+    padding: 0.5em;
+    box-shadow: 0px 0px 4px 1px #00AD8A;
+    border-radius: 2px;
+}
+
+.rates-text {
+    background: #fff;
+    position: absolute;
+    width: 50%;
+    top: 5em;
+    right: 35em;
+    padding: 3em 2em 0 8em;
+    height: 65%;
+    box-shadow: 0px 3px 4px 2px #DCDEDE;
+    border-radius: 2px;
+    z-index: -1;
+    /*margin-right: 500px;*/
+    
+}
+/*.rates-text>h4,p,h5{
+	margin-left: 30px;
+}*/
+.rates-text1 {
+    background: #fff;
+    position: absolute;
+    width: 50%;
+    top: 5em;
+    left: 35em;
+    padding: 3em 8em 0 2em;
+    height: 65%;
+    box-shadow: 0px 3px 4px 2px #DCDEDE;
+    border-radius: 2px;
+    z-index: -1;
+    /*margin-left: 500px;*/
+}
+
+@keyframes left{
+	0%{
+		position: absolute;
+     left: 0px;
+	}
+	100%{
+		position: absolute;
+	left: 600px;
+	}
+}
+@keyframes right{
+	0%{
+		position: absolute;
+     left: 600px;
+	}
+	100%{
+		position: absolute;
+	left: 0px;
+	}
+}
+.rates-grids:hover .rates-text{
+	animation: left linear 2s forwards ;
+}
+.rates-grids:hover .rates-text1{
+	animation: right linear 2s forwards ;
+}
